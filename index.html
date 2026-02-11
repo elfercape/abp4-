@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>App JS - Evaluación del Módulo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 4 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container my-4">
+      <h1 class="text-center mb-4">Aplicación JavaScript – Consola Web</h1>
+
+      <!-- Sección operaciones matemáticas -->
+      <section class="card mb-3">
+        <div class="card-header">Operaciones matemáticas</div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label>Número 1</label>
+              <input type="number" id="num1" class="form-control" value="10" />
+            </div>
+            <div class="form-group col-md-4">
+              <label>Número 2</label>
+              <input type="number" id="num2" class="form-control" value="5" />
+            </div>
+            <div class="form-group col-md-4">
+              <label>Operación</label>
+              <select id="operacion" class="form-control">
+                <option value="sumar">Sumar</option>
+                <option value="restar">Restar</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btnCalcular">Calcular</button>
+          <p class="mt-2 mb-0"><strong>Resultado:</strong> <span id="resultadoOperacion"></span></p>
+        </div>
+      </section>
+
+      <!-- Sección arreglo y filtro -->
+      <section class="card mb-3">
+        <div class="card-header">Arreglo y filtro de números</div>
+        <div class="card-body">
+          <p class="mb-1">Arreglo base: <span id="listaNumeros"></span></p>
+          <div class="form-inline">
+            <label class="mr-2">Límite:</label>
+            <input type="number" id="limiteFiltro" class="form-control mr-2" value="20" />
+            <button class="btn btn-success" id="btnFiltrar">Filtrar mayores</button>
+          </div>
+          <p class="mt-2 mb-0">
+            <strong>Resultado filtro:</strong> <span id="resultadoFiltro"></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Sección objeto usuario -->
+      <section class="card mb-3">
+        <div class="card-header">Usuario (Objeto)</div>
+        <div class="card-body">
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label>Nombre</label>
+              <input type="text" id="nombreUsuario" class="form-control" value="Sofía" />
+            </div>
+            <div class="form-group col-md-4">
+              <label>Edad</label>
+              <input type="number" id="edadUsuario" class="form-control" value="28" />
+            </div>
+            <div class="form-group col-md-4">
+              <label>Ciudad</label>
+              <input type="text" id="ciudadUsuario" class="form-control" value="Rosario" />
+            </div>
+          </div>
+          <button class="btn btn-info" id="btnCrearUsuario">Crear usuario</button>
+          <p class="mt-2 mb-0">
+            <strong>Descripción:</strong> <span id="descripcionUsuario"></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Sección tabla de multiplicar -->
+      <section class="card mb-3">
+        <div class="card-header">Tabla de multiplicar</div>
+        <div class="card-body">
+          <div class="form-inline mb-2">
+            <label class="mr-2">Número:</label>
+            <input type="number" id="numeroTabla" class="form-control mr-2" value="7" />
+            <button class="btn btn-warning" id="btnTabla">Generar tabla</button>
+          </div>
+          <pre id="resultadoTabla" class="mb-0"></pre>
+        </div>
+      </section>
+
+      <!-- Ayuda / instrucciones -->
+      <section class="card">
+        <div class="card-header">Instrucciones</div>
+        <div class="card-body">
+          <p class="mb-1">
+            1. Completa los campos y presiona los botones para ejecutar cada funcionalidad.
+          </p>
+          <p class="mb-0">
+            2. Abre la consola del navegador para ver también algunos mensajes con
+            <code>console.log</code>.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
