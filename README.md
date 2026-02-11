@@ -113,7 +113,7 @@ Para la entrega, se recomienda incluir capturas de: [file:1]
 
 ## Vista general
 
-![Vista general de la aplicación](/abp4-/img/pagina%20web.png)
+![Vista general de la aplicación](/abp4-/img/paginaweb.png)
 
 ## Operaciones matemáticas
 
