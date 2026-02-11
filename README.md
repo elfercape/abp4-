@@ -113,35 +113,35 @@ Para la entrega, se recomienda incluir capturas de: [file:1]
 
 ## Vista general
 
-![Vista general de la aplicación](/abp4-/img/paginaweb.png)
+![Vista general de la aplicación](/img/paginaweb.png)
 
 ## Operaciones matemáticas
 
-![Operaciones matemáticas](/abp4-/img/sumar%20y%20multiplicar.png)
+![Operaciones matemáticas](/img/sumar%20y%20multiplicar.png)
 
 ## Tabla de multiplicar
 
-![Tabla de multiplicar](img/Tabla%20de%20multiplicar.png)
+![Tabla de multiplicar](/img/Tabla%20de%20multiplicar.png)
 
 ## Nombre y Objeto
 
-![Generador de nombre y objeto](/abp4-/img/Usuario%20y%20objeto.png)
+![Generador de nombre y objeto](/img/Usuario%20y%20objeto.png)
 
 ## Consola web
 
-![Consola JS ](/abp4-/img/consola.png)
+![Consola JS ](/img/consola.png)
 
 ## codigo Index.html
 
-![Codigo html 1-2-3](/abp4-/img/Codigo%20index.html%201.png)
-![Codigo html 1-2-3](/abp4-/img/codigo%20index.html%202.png)
-![Codigo html 1-2-3](/abp4-/img/Codigo%20index.html%203.png)
+![Codigo html 1-2-3](/img/Codigo%20index.html%201.png)
+![Codigo html 1-2-3](/img/codigo%20index.html%202.png)
+![Codigo html 1-2-3](/img/Codigo%20index.html%203.png)
 
 ## codigo app.js
 
-![Codigo js 1-2-3](/abp4-/img/codigo%20app.js.png)
-![Codigo js 1-2-3](/abp4-/img/codigo%20app.js%202.png)
-![Codigo js 1-2-3](/abp4-/img/codigo%20app.js%203.png)
+![Codigo js 1-2-3](/img/codigo%20app.js.png)
+![Codigo js 1-2-3](/img/codigo%20app.js%202.png)
+![Codigo js 1-2-3](/img/codigo%20app.js%203.png)
 
 ## 9. Referencias
 
