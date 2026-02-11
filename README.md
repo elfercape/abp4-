@@ -121,7 +121,7 @@ Para la entrega, se recomienda incluir capturas de: [file:1]
 
 ## Tabla de multiplicar
 
-![Tabla de multiplicar](/abp4-/img/Tabla%20de%20multiplicar.png)
+![Tabla de multiplicar](abp4-/img/Tabla%20de%20multiplicar.png)
 
 ## Nombre y Objeto
 
